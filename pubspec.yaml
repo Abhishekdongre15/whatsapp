@@ -1,0 +1,17 @@
+name: whatsapp_scheduler
+version: 0.1.0
+publish_to: 'none'
+description: "Personal Flutter helper to open WhatsApp with a scheduled message when the app is unlocked."
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.0
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+
+flutter:
+  uses-material-design: true
